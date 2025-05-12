@@ -1,10 +1,10 @@
+export * from './interfaces/baseModel';
 export * from './interfaces/valnet/cliente';
-export * from './interfaces/task';
-export * from './interfaces/user';
+export * from './interfaces/valnet/user';
 export * from './interfaces/facturacion/pago';
 export * from './interfaces/facturacion/factura';
-export * from './interfaces/service';
-export * from './interfaces/serviceAssignment';
-export * from './interfaces/raffleItem';
-export * from './interfaces/recurringInvoice';
+export * from './interfaces/servicio/planInternet';
+export * from './interfaces/almacen/articulo';
+export * from './interfaces/almacen/inventario';
+export * from './interfaces/ventas/preRegistro';
 //# sourceMappingURL=index.d.ts.map
