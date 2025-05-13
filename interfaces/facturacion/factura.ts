@@ -1,6 +1,12 @@
 import { BaseModel } from "../baseModel"
 import { Cliente } from "../valnet/cliente"
 
+export enum EstadoFactura {
+    PAGADA = 'Pagada',
+    NO_PAGADA = 'No Pagada',
+    ANULADA = 'Anulada',
+}
+
 export interface FacturaMikrowisp {
     id: string
     legal: number
