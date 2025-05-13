@@ -9,4 +9,5 @@ export interface Inventario extends BaseModel {
     nombre: string
     descripcion: string
     tipo: TipoInventario
+    principal: boolean
 }
