@@ -17,6 +17,7 @@ export enum TipoArticulo {
 
 export interface Articulo extends BaseModel {
     tipo: TipoArticulo
+    idinventario: string
     nombre: string
     descripcion: string
     //parametros para materiales
@@ -27,4 +28,5 @@ export interface Articulo extends BaseModel {
     //parametros para equipos
     marca: string
     serial: string
+    ubicacion: string
 }

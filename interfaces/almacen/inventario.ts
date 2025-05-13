@@ -1,6 +1,12 @@
 import { BaseModel } from "../baseModel"
 
+export enum TipoInventario {
+    LOCAL = 'Local',
+    BRIGADA = 'Brigada',
+}
+
 export interface Inventario extends BaseModel {
-    name: string
-    description: string
+    nombre: string
+    descripcion: string
+    tipo: TipoInventario
 }
